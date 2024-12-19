@@ -27,5 +27,11 @@ Button bu1,bu2;
                 startActivity(i);
             }
         });
+        bu2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(getApplicationContext(), ViewActivity.class);
+            }
+        });
     }
 }
